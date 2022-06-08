@@ -4,7 +4,7 @@ import pandas as pd
 
 st.header("My first Streamlit App")
 
-option = st.sidebar.selectbox(
+option = st.selectbox(
     'Select a mini project',
      ['line chart','map','T n C'])
 
